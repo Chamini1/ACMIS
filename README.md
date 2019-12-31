@@ -1,1 +1,2 @@
 # ACMIS
+I Google Translate is a free multilingual machine translation service developed by Google, to translate text. It offers a website interface, mobile apps for Android and iOS, and an API that helps developers build browser extensions and software applications. Wikipedia
