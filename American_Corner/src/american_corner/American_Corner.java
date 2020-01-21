@@ -5,17 +5,30 @@
  */
 package american_corner;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+
 /**
  *
- * @author SATHSARA
+ * @author Prarthana
  */
 public class American_Corner {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        String url="jdbc:mysql://localhost:3306/america_corner";
+        String uname="root";
+        String pwd="";
+        
+        try{  
+            Class.forName("com.mysql.jdbc.Driver");  
+            Connection con=DriverManager.getConnection(url,uname,pwd); 
+    
+  
+
+}catch(Exception e){
+    System.out.println(e);}  
     }
     
 }
